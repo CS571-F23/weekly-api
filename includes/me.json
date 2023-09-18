@@ -1,0 +1,54 @@
+{
+    "name": "Cole Nelson",
+    "age": 25,
+    "favColors": ["blue", "cyan", "skyblue", "orange", "salmon"],
+    "classesTaught": ["CS220", "CS571"],
+    "creditHistory": [
+        {
+            "semester": "FALL_2016",
+            "cred": 14
+        },
+        {
+            "semester": "SPRING_2017",
+            "cred": 18
+        },
+        {
+            "semester": "FALL_2017",
+            "cred": 17
+        },
+        {
+            "semester": "SPRING_2018",
+            "cred": 12
+        },
+        {
+            "semester": "FALL_2018",
+            "cred": 14
+        },
+        {
+            "semester": "SPRING_2019",
+            "cred": 18
+        },
+        {
+            "semester": "FALL_2019",
+            "cred": 15
+        },
+        {
+            "semester": "SPRING_2020",
+            "cred": 15
+        }
+    ],
+    "plants": {
+        "foto": {
+            "alive": true,
+            "type": "SUCCULENT"
+        },
+        "syn": {
+            "alive": true,
+            "type": "SUCCULENT"
+        },
+        "thesis": {
+            "alive": false,
+            "type": "BAMBOO"
+        }
+    }
+}
