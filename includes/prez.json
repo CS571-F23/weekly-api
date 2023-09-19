@@ -1,0 +1,74 @@
+[
+    {
+        "name": "George Washington",
+        "birth_year": 1732,
+        "death_year": 1799,
+        "terms_in_office": [
+            {
+                "start_year": 1789,
+                "end_year": 1797
+            }
+        ],
+        "political_party": "Independent"
+    },
+    {
+        "name": "John Adams",
+        "birth_year": 1735,
+        "death_year": 1826,
+        "terms_in_office": [
+            {
+                "start_year": 1797,
+                "end_year": 1801
+            }
+        ],
+        "political_party": "Federalist"
+    },
+    {
+        "name": "Thomas Jefferson",
+        "birth_year": 1743,
+        "death_year": 1826,
+        "terms_in_office": [
+            {
+                "start_year": 1801,
+                "end_year": 1805
+            },
+            {
+                "start_year": 1805,
+                "end_year": 1809
+            }
+        ],
+        "political_party": "Democratic-Republican"
+    },
+    {
+        "name": "James Madison",
+        "birth_year": 1751,
+        "death_year": 1836,
+        "terms_in_office": [
+            {
+                "start_year": 1809,
+                "end_year": 1813
+            },
+            {
+                "start_year": 1813,
+                "end_year": 1817
+            }
+        ],
+        "political_party": "Democratic-Republican"
+    },
+    {
+        "name": "James Monroe",
+        "birth_year": 1758,
+        "death_year": 1831,
+        "terms_in_office": [
+            {
+                "start_year": 1817,
+                "end_year": 1821
+            },
+            {
+                "start_year": 1821,
+                "end_year": 1825
+            }
+        ],
+        "political_party": "Democratic-Republican"
+    }
+]
