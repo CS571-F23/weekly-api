@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Fix Server Outage",
+        "description": "Investigate and resolve the server outage issue affecting the production environment.",
+        "status": "TODO"
+    },
+    {
+        "name": "Upgrade Database",
+        "description": "Upgrade the database system to the latest version to improve performance and security.",
+        "status": "INPROGRESS"
+    },
+    {
+        "name": "Implement Backup Solution",
+        "description": "Set up an automated backup solution for critical data and configurations.",
+        "status": "TODO"
+    },
+    {
+        "name": "Install Security Patches",
+        "description": "Apply the latest security patches to servers and network devices to address vulnerabilities.",
+        "status": "DONE"
+    },
+    {
+        "name": "Develop User Authentication System",
+        "description": "Create a user authentication system for the new web application.",
+        "status": "INPROGRESS"
+    },
+    {
+        "name": "Optimize Codebase",
+        "description": "Review and optimize the existing codebase to improve application performance.",
+        "status": "TODO"
+    },
+    {
+        "name": "Deploy New API Endpoint",
+        "description": "Deploy a new API endpoint to support a mobile app feature.",
+        "status": "INPROGRESS"
+    },
+    {
+        "name": "Migrate Email Servers",
+        "description": "Migrate email servers to a new infrastructure provider for improved reliability.",
+        "status": "TODO"
+    },
+    {
+        "name": "Resolve Network Latency Issue",
+        "description": "Investigate and resolve network latency issues affecting remote office connectivity.",
+        "status": "TODO"
+    },
+    {
+        "name": "Create Documentation",
+        "description": "Create comprehensive documentation for the IT systems and procedures.",
+        "status": "TODO"
+    },
+    {
+        "name": "Implement Two-Factor Authentication",
+        "description": "Enhance security by implementing two-factor authentication for user accounts.",
+        "status": "INPROGRESS"
+    },
+    {
+        "name": "Upgrade Firewall Rules",
+        "description": "Review and update firewall rules to ensure network security.",
+        "status": "DONE"
+    },
+    {
+        "name": "Set Up Monitoring Alerts",
+        "description": "Configure monitoring alerts for critical system components to proactively detect issues.",
+        "status": "INPROGRESS"
+    },
+    {
+        "name": "Patch Software Vulnerabilities",
+        "description": "Identify and patch software vulnerabilities to mitigate security risks.",
+        "status": "TODO"
+    },
+    {
+        "name": "Deploy Load Balancer",
+        "description": "Deploy a load balancer to distribute traffic evenly across multiple servers.",
+        "status": "INPROGRESS"
+    },
+    {
+        "name": "Create Backup Strategy",
+        "description": "Develop a backup strategy to ensure data recovery in case of failures.",
+        "status": "TODO"
+    },
+    {
+        "name": "Configure DNS Settings",
+        "description": "Configure DNS settings for a new domain to point to the correct servers.",
+        "status": "DONE"
+    },
+    {
+        "name": "Optimize Database Queries",
+        "description": "Optimize database queries to improve application response times.",
+        "status": "INPROGRESS"
+    },
+    {
+        "name": "Implement Data Encryption",
+        "description": "Implement data encryption to enhance data security during transmission and storage.",
+        "status": "TODO"
+    },
+    {
+        "name": "Upgrade Web Server Software",
+        "description": "Upgrade the web server software to the latest stable version.",
+        "status": "DONE"
+    }
+]
