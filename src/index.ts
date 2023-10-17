@@ -8,6 +8,9 @@ import { CS571Week02Route } from './routes/week02';
 import { CS571Week03Route } from './routes/week03';
 import { CS571Week05Route } from './routes/week05';
 import { CS571Week06Route } from './routes/week06';
+import { CS571Week07GetRoute } from './routes/week07-get';
+import { CS571Week07CreateRoute } from './routes/week07-create';
+import { Ticket } from './model/ticket';
 
 console.log("Welcome to Weekly API!");
 
@@ -23,6 +26,11 @@ const prez = JSON.parse(fs.readFileSync('includes/prez.json').toString())
 const hurr = JSON.parse(fs.readFileSync('includes/hurr.json').toString())
 const tix = JSON.parse(fs.readFileSync('includes/tickets.json').toString())
 
+for (let tic of tix) {
+  delete tic.status
+}
+
+const mutableTix: Ticket[] = [];
 
 appBundle.router.addRoutes([
   new CS571Week02Route(cole),
@@ -40,7 +48,9 @@ appBundle.router.addRoutes([
       ...t,
       id: crypto.createHash('sha256').update(t.name + t.description).digest('hex').substring(0, 36)
     }
-  }))
+  })),
+  new CS571Week07GetRoute(mutableTix),
+  new CS571Week07CreateRoute(appBundle.auth, mutableTix)
 ])
 
 app.listen(appBundle.config.PORT, () => {
