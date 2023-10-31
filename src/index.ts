@@ -11,6 +11,8 @@ import { CS571Week06Route } from './routes/week06';
 import { CS571Week07GetRoute } from './routes/week07-get';
 import { CS571Week07CreateRoute } from './routes/week07-create';
 import { Ticket } from './model/ticket';
+import { CS571Week09BioRoute } from './routes/week09-bio';
+import { CS571Week09MessageRoute } from './routes/week09-message';
 
 console.log("Welcome to Weekly API!");
 
@@ -25,6 +27,8 @@ const cole = JSON.parse(fs.readFileSync('includes/me.json').toString())
 const prez = JSON.parse(fs.readFileSync('includes/prez.json').toString())
 const hurr = JSON.parse(fs.readFileSync('includes/hurr.json').toString())
 const tix = JSON.parse(fs.readFileSync('includes/tickets.json').toString())
+const jox = JSON.parse(fs.readFileSync('includes/jokes.json').toString())
+const bio = JSON.parse(fs.readFileSync('includes/bio.json').toString())
 
 for (let tic of tix) {
   delete tic.status
@@ -50,7 +54,9 @@ appBundle.router.addRoutes([
     }
   })),
   new CS571Week07GetRoute(mutableTix),
-  new CS571Week07CreateRoute(appBundle.auth, mutableTix)
+  new CS571Week07CreateRoute(appBundle.auth, mutableTix),
+  new CS571Week09BioRoute(bio),
+  new CS571Week09MessageRoute(jox)
 ])
 
 app.listen(appBundle.config.PORT, () => {
